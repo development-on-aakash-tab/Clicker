@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/RemoteAakashClickerRepo/!svn/ver/76/RemoteAakashClicker/WebContent/jsp/CoordinatorJspPages
+END
+appendResponse.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/RemoteAakashClickerRepo/!svn/ver/54/RemoteAakashClicker/WebContent/jsp/CoordinatorJspPages/appendResponse.jsp
+END
+ResponseSend.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/RemoteAakashClickerRepo/!svn/ver/65/RemoteAakashClicker/WebContent/jsp/CoordinatorJspPages/ResponseSend.jsp
+END
+QuizTimeUpdate.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/RemoteAakashClickerRepo/!svn/ver/76/RemoteAakashClicker/WebContent/jsp/CoordinatorJspPages/QuizTimeUpdate.jsp
+END
+QuizURL.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/RemoteAakashClickerRepo/!svn/ver/72/RemoteAakashClicker/WebContent/jsp/CoordinatorJspPages/QuizURL.jsp
+END
+checkidle.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/RemoteAakashClickerRepo/!svn/ver/35/RemoteAakashClicker/WebContent/jsp/CoordinatorJspPages/checkidle.jsp
+END
+isQuizStarted.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/RemoteAakashClickerRepo/!svn/ver/74/RemoteAakashClicker/WebContent/jsp/CoordinatorJspPages/isQuizStarted.jsp
+END
+CoordinatorAdmin.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/RemoteAakashClickerRepo/!svn/ver/51/RemoteAakashClicker/WebContent/jsp/CoordinatorJspPages/CoordinatorAdmin.jsp
+END
+CoordinatorError.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/RemoteAakashClickerRepo/!svn/ver/51/RemoteAakashClicker/WebContent/jsp/CoordinatorJspPages/CoordinatorError.jsp
+END
+responsechart.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/RemoteAakashClickerRepo/!svn/ver/65/RemoteAakashClicker/WebContent/jsp/CoordinatorJspPages/responsechart.jsp
+END
+QuizStatusListener.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/RemoteAakashClickerRepo/!svn/ver/65/RemoteAakashClicker/WebContent/jsp/CoordinatorJspPages/QuizStatusListener.jsp
+END
+CoordinatorHelper.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/RemoteAakashClickerRepo/!svn/ver/46/RemoteAakashClicker/WebContent/jsp/CoordinatorJspPages/CoordinatorHelper.jsp
+END
+HTTP_Transfer.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/RemoteAakashClickerRepo/!svn/ver/57/RemoteAakashClicker/WebContent/jsp/CoordinatorJspPages/HTTP_Transfer.jsp
+END
+QuizSSE.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/RemoteAakashClickerRepo/!svn/ver/76/RemoteAakashClicker/WebContent/jsp/CoordinatorJspPages/QuizSSE.jsp
+END

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="QuizGraphicalResult" language="groovy" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20">
+	<property name="ireport.zoom" value="0.8264462809917374"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<style name="Title" forecolor="#FFFFFF" fontName="Serif" fontSize="50" isBold="false" pdfFontName="Times-Bold"/>
+	<style name="SubTitle" forecolor="#CCCCCC" fontName="Serif" fontSize="18" isBold="false" pdfFontName="Times-Roman"/>
+	<style name="Column header" forecolor="#666666" fontName="Serif" fontSize="14" isBold="true" pdfFontName="Times-Roman"/>
+	<style name="Detail" mode="Transparent" fontName="Serif" pdfFontName="Times-Roman"/>
+	<style name="Row" mode="Transparent" fontName="Serif" pdfFontName="Times-Roman">
+		<conditionalStyle>
+			<conditionExpression><![CDATA[$V{REPORT_COUNT}%2 == 0]]></conditionExpression>
+			<style mode="Opaque" backcolor="#F0EFEF"/>
+		</conditionalStyle>
+	</style>
+	<parameter name="centerid" class="java.lang.String"/>
+	<parameter name="QID" class="java.lang.String"/>
+	<parameter name="QTS" class="java.lang.String"/>
+	<parameter name="studCount" class="java.lang.String"/>
+	<parameter name="SUBREPORT_DIR" class="java.lang.String">
+		<defaultValueExpression><![CDATA["/"]]></defaultValueExpression>
+	</parameter>
+	<queryString>
+		<![CDATA[SELECT qq.QuizName, c.CenterName, q.ParticipantID, qr.QuizTimeStamp, q.Response, if(o.OptionCorrectness =1, 'Correct', 'Wrong') as Correctness FROM remotequizrecord qr, remotequizrecordquestion q, options o, remotecenter c, quiz qq, participant p where qr.QuizID = $P{QID} and qr.QuizTimeStamp =  $P{QTS} and q.QuizRecordID = qr.QuizRecordID and o.OptionID = q.OptionID and p.ParticipantID = q.ParticipantID and q.CenterID=$P{centerid} and c.CenterID = q.CenterID and qq.QuizID = qr.QuizID]]>
+	</queryString>
+	<field name="QuizName" class="java.lang.String"/>
+	<field name="CenterName" class="java.lang.String"/>
+	<field name="ParticipantID" class="java.lang.Integer"/>
+	<field name="QuizTimeStamp" class="java.sql.Timestamp"/>
+	<field name="Response" class="java.lang.String"/>
+	<field name="Correctness" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="265" splitType="Stretch">
+			<frame>
+				<reportElement mode="Opaque" x="0" y="0" width="555" height="49" backcolor="#5A64FF"/>
+				<staticText>
+					<reportElement style="Title" x="0" y="0" width="303" height="43"/>
+					<textElement>
+						<font size="36" isBold="false"/>
+					</textElement>
+					<text><![CDATA[Quiz Response]]></text>
+				</staticText>
+				<staticText>
+					<reportElement style="SubTitle" x="403" y="14" width="150" height="29"/>
+					<textElement>
+						<font size="22" isBold="false"/>
+					</textElement>
+					<text><![CDATA[Clicker Web]]></text>
+				</staticText>
+			</frame>
+			<frame>
+				<reportElement mode="Opaque" x="0" y="49" width="555" height="28" forecolor="#000000" backcolor="#0A1E64"/>
+				<textField pattern="EEEEE dd MMMMM yyyy">
+					<reportElement x="409" y="0" width="144" height="20" forecolor="#FFFFFF"/>
+					<textElement textAlignment="Right">
+						<font size="12"/>
+					</textElement>
+					<textFieldExpression class="java.util.Date"><![CDATA[new java.util.Date()]]></textFieldExpression>
+				</textField>
+			</frame>
+			<textField isStretchWithOverflow="true">
+				<reportElement style="Detail" positionType="Float" x="400" y="84" width="135" height="18"/>
+				<textElement>
+					<font size="14" isItalic="true"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{QuizName}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement style="Column header" x="284" y="84" width="88" height="18" forecolor="#000000"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[QuizName]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement style="Detail" positionType="Float" x="400" y="115" width="143" height="18"/>
+				<textElement>
+					<font size="14" isItalic="true"/>
+				</textElement>
+				<textFieldExpression class="java.sql.Timestamp"><![CDATA[$F{QuizTimeStamp}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement style="Column header" x="284" y="115" width="111" height="18" forecolor="#000000"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[TimeStamp]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true">
+				<reportElement style="Detail" positionType="Float" x="121" y="84" width="139" height="18"/>
+				<textElement>
+					<font size="14" isItalic="true"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$F{CenterName}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement style="Column header" x="0" y="84" width="114" height="18" forecolor="#000000"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Center Name]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Column header" x="2" y="124" width="166" height="34" forecolor="#000000"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Number of Student Participated]]></text>
+			</staticText>
+			<subreport>
+				<reportElement x="10" y="191" width="82" height="42"/>
+				<subreportParameter name="centerid">
+					<subreportParameterExpression><![CDATA[$P{centerid}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportParameter name="QID">
+					<subreportParameterExpression><![CDATA[$P{QID}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportParameter name="QTS">
+					<subreportParameterExpression><![CDATA[$P{QTS}]]></subreportParameterExpression>
+				</subreportParameter>
+				<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+				<subreportExpression class="java.lang.String"><![CDATA[$P{SUBREPORT_DIR} + "RemoteQuizResponse_subreport.jasper"]]></subreportExpression>
+			</subreport>
+			<textField isStretchWithOverflow="true">
+				<reportElement style="Detail" positionType="Float" x="183" y="126" width="93" height="18"/>
+				<textElement>
+					<font size="14" isItalic="true"/>
+				</textElement>
+				<textFieldExpression class="java.lang.String"><![CDATA[$P{studCount}]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<pageHeader>
+		<band splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="45" splitType="Stretch">
+			<staticText>
+				<reportElement style="Column header" x="75" y="10" width="132" height="18" forecolor="#000000"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Participant ID]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Column header" x="244" y="10" width="92" height="18" forecolor="#000000"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Response]]></text>
+			</staticText>
+			<staticText>
+				<reportElement style="Column header" x="372" y="10" width="105" height="18" forecolor="#000000"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Correctness]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="28" splitType="Stretch">
+			<frame>
+				<reportElement style="Row" mode="Opaque" x="0" y="0" width="555" height="18"/>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="Detail" positionType="Float" x="75" y="0" width="149" height="18"/>
+					<textElement>
+						<font size="14"/>
+					</textElement>
+					<textFieldExpression class="java.lang.String"><![CDATA[$F{ParticipantID}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="Detail" positionType="Float" x="256" y="0" width="85" height="18"/>
+					<textElement>
+						<font size="14"/>
+					</textElement>
+					<textFieldExpression class="java.lang.String"><![CDATA[$F{Response}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement style="Detail" positionType="Float" x="372" y="0" width="93" height="18"/>
+					<textElement>
+						<font size="14"/>
+					</textElement>
+					<textFieldExpression class="java.lang.String"><![CDATA[$F{Correctness}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="46" splitType="Stretch">
+			<frame>
+				<reportElement mode="Opaque" x="2" y="10" width="555" height="24" forecolor="#D0B48E" backcolor="#5A64FF"/>
+				<textField evaluationTime="Report">
+					<reportElement style="Column header" x="513" y="0" width="40" height="20" forecolor="#FFFFFF"/>
+					<textElement verticalAlignment="Middle">
+						<font size="10" isBold="false"/>
+					</textElement>
+					<textFieldExpression class="java.lang.String"><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement style="Column header" x="433" y="0" width="80" height="20" forecolor="#FFFFFF"/>
+					<textElement textAlignment="Right" verticalAlignment="Middle">
+						<font size="10" isBold="false"/>
+					</textElement>
+					<textFieldExpression class="java.lang.String"><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+				</textField>
+			</frame>
+			<textField pattern="EEEEE dd MMMMM yyyy">
+				<reportElement style="Column header" x="10" y="10" width="197" height="20" forecolor="#FFFFFF"/>
+				<textElement verticalAlignment="Middle">
+					<font size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression class="java.util.Date"><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>

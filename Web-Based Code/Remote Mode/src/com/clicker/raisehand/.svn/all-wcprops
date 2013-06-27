@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/RemoteAakashClickerRepo/!svn/ver/66/RemoteAakashClicker/src/com/clicker/raisehand
+END
+RestoreDoubtsManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/RemoteAakashClickerRepo/!svn/ver/66/RemoteAakashClicker/src/com/clicker/raisehand/RestoreDoubtsManager.java
+END
+RaiseHandRowData.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/RemoteAakashClickerRepo/!svn/ver/66/RemoteAakashClicker/src/com/clicker/raisehand/RaiseHandRowData.java
+END
+SwitchRaiseHand.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/RemoteAakashClickerRepo/!svn/ver/61/RemoteAakashClicker/src/com/clicker/raisehand/SwitchRaiseHand.java
+END
+SaveDoubtServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/RemoteAakashClickerRepo/!svn/ver/66/RemoteAakashClicker/src/com/clicker/raisehand/SaveDoubtServlet.java
+END
+DeleteDoubtServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/RemoteAakashClickerRepo/!svn/ver/66/RemoteAakashClicker/src/com/clicker/raisehand/DeleteDoubtServlet.java
+END
+RaiseHandDBModel.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/RemoteAakashClickerRepo/!svn/ver/66/RemoteAakashClicker/src/com/clicker/raisehand/RaiseHandDBModel.java
+END
+RaiseHandChannel.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/RemoteAakashClickerRepo/!svn/ver/66/RemoteAakashClicker/src/com/clicker/raisehand/RaiseHandChannel.java
+END
+RetrieveRecordsServlet.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/RemoteAakashClickerRepo/!svn/ver/66/RemoteAakashClicker/src/com/clicker/raisehand/RetrieveRecordsServlet.java
+END

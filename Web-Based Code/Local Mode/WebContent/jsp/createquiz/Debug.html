@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Create Quiz</title>
+<link rel="stylesheet" href="CQstyle.css" type="text/css" media="all"/>
+<script type="text/javascript">
+function addToQuiz(){
+	try
+	{
+		var selectBox=document.getElementById("select1");
+		var createdOption=document.createElement("option");
+		createdOption.setAttribute("value", selectBox.options[selectBox.selectedIndex].value);
+		createdOption.setAttribute("name", selectBox.options[selectBox.selectedIndex].value);
+		createdOption.innerHTML=selectBox.options[selectBox.selectedIndex].text;
+		document.getElementById("select2").appendChild(createdOption);
+	}catch(err){
+		alert(err.message);
+	}
+}
+function set(){
+   document.getElementById("yo").innerHTML="";
+}
+</script>
+</head>
+<body>
+<center>
+<%@page import="java.util.*,PackA.*" %>
+<h2>Create Quiz</h2><br/>
+<form id="f1" action="dataEntered" method="post">
+	<textarea name="question" cols="60" rows="5"></textarea><br/><br/>
+	<select size="10" name="selectField" id="select1" multiple="yes" style="width:30%">
+		<option>1</option>
+		<option>2</option>
+	</select>
+	<input type="button" id="button1" onclick="addToQuiz()">>></button>
+	<input type="button" id="button2" onclick="set()"><<</button>
+	<label id="yo">SDsasdaw</label>
+	<select size="10" name="selectedQuestions" id="select2" style="width:30%">
+	</select>
+	<br/>
+	<input type="submit" value="Create Quiz"/>
+</form>
+</center>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, CLICKERActivity!</string>
+    <string name="app_name">ClickeR</string>
+    
+    <string name="Server_IP">Server IP</string>
+   
+    <string name="enter_server_ip">Enter Server IP Address</string>
+    
+    
+    <string name="enter_enrollment_id">Enter Enrollment ID</string>
+    
+   
+    <string name="CENTRE">CENTRE</string>
+   
+    <string name="select_centre">Select Centre</string>
+    
+     <string name="Local">Local</string>
+   
+    <string name="Remote">Remote</string>
+    
+    <string name="Connect_Local">     Local</string>
+   
+    <string name="Connect_Remote">    Remote</string>
+    
+     <string name="Connect">CONNECT</string>
+     
+     
+     <string name="Reset">RESET</string>
+    
+    
+    
+    
+</resources>

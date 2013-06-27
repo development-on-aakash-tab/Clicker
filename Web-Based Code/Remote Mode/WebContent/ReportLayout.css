@@ -1,0 +1,13 @@
+@CHARSET "UTF-8";
+
+
+#content_in{width:600px; min-height:375px; overflow:hidden; margin:auto; background-color: #AABBCC}
+
+#rpt_left_content{width: 80px; float: left;}
+.rpt_menu{width:80px; height: 50px; margin-top: 40px; font-size: medium; color: blue; cursor: pointer;text-shadow:3px 3px 3px #88FFFF;}
+
+#rpt_header{width: 520px; height: 60px; float: right; margin-top: 40px; text-align:center;}
+
+#rpt_right_content{width: 500px; float: right; margin-top:30px; margin-left: 20px;text-align:left;}
+.rpt_content{display: none;}
+

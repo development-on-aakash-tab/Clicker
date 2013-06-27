@@ -1,0 +1,8 @@
+Note : Please read the following instructions carefully :
+
+1) To change the Server IP address click on menu and you get "Settings".
+
+2) Now type the Server IP Address which follows this convention X.X.X.X  where, X denotes a number whose range is between 0-255.
+   For example,  192.168.1.100 and then press "Ok" button.
+
+

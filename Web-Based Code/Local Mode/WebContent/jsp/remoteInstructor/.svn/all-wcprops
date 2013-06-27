@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/AakashClickerRepo/!svn/ver/191/AakashClickerV3/WebContent/jsp/remoteInstructor
+END
+ListQuiz.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/AakashClickerRepo/!svn/ver/178/AakashClickerV3/WebContent/jsp/remoteInstructor/ListQuiz.jsp
+END
+InstructorError.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/AakashClickerRepo/!svn/ver/99/AakashClickerV3/WebContent/jsp/remoteInstructor/InstructorError.jsp
+END
+InstantQuiz.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/AakashClickerRepo/!svn/ver/191/AakashClickerV3/WebContent/jsp/remoteInstructor/InstantQuiz.jsp
+END
+ListSpotQuiz.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/AakashClickerRepo/!svn/ver/178/AakashClickerV3/WebContent/jsp/remoteInstructor/ListSpotQuiz.jsp
+END
+RemoteCenter.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/AakashClickerRepo/!svn/ver/189/AakashClickerV3/WebContent/jsp/remoteInstructor/RemoteCenter.jsp
+END
+DAOReportHelper.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/AakashClickerRepo/!svn/ver/146/AakashClickerV3/WebContent/jsp/remoteInstructor/DAOReportHelper.jsp
+END
+InstantQuizStart.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/AakashClickerRepo/!svn/ver/189/AakashClickerV3/WebContent/jsp/remoteInstructor/InstantQuizStart.jsp
+END
+RemoteResponse.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/AakashClickerRepo/!svn/ver/182/AakashClickerV3/WebContent/jsp/remoteInstructor/RemoteResponse.jsp
+END
+InstructorQuizMenu.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/AakashClickerRepo/!svn/ver/137/AakashClickerV3/WebContent/jsp/remoteInstructor/InstructorQuizMenu.jsp
+END
+report.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/AakashClickerRepo/!svn/ver/146/AakashClickerV3/WebContent/jsp/remoteInstructor/report.jsp
+END
+QuizURL.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/AakashClickerRepo/!svn/ver/189/AakashClickerV3/WebContent/jsp/remoteInstructor/QuizURL.jsp
+END
+Quizdlg.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/AakashClickerRepo/!svn/ver/184/AakashClickerV3/WebContent/jsp/remoteInstructor/Quizdlg.jsp
+END
+responsechart.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/AakashClickerRepo/!svn/ver/154/AakashClickerV3/WebContent/jsp/remoteInstructor/responsechart.jsp
+END
+responseinstantchart.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/AakashClickerRepo/!svn/ver/189/AakashClickerV3/WebContent/jsp/remoteInstructor/responseinstantchart.jsp
+END
+DAOResponse.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/AakashClickerRepo/!svn/ver/189/AakashClickerV3/WebContent/jsp/remoteInstructor/DAOResponse.jsp
+END
+SpotQuizMenu.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/AakashClickerRepo/!svn/ver/120/AakashClickerV3/WebContent/jsp/remoteInstructor/SpotQuizMenu.jsp
+END

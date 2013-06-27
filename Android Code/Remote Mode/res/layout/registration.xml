@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+     android:keepScreenOn="true">
+     
+       <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:text="@string/select_centre"  />
+       
+     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+     >
+   
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+         >
+        <RadioButton
+            android:id="@+id/local"
+             android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Local"
+       
+             />
+           <RadioButton
+                android:id="@+id/remote"
+               android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Remote" />
+        
+    </RadioGroup>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:text="@string/enter_enrollment_id" />
+   
+    <EditText
+       android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+       android:id="@+id/enrollment_id"
+       android:singleLine="true"/>
+    
+    
+    
+    
+   
+    
+     <TextView
+         android:id="@+id/iplabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_server_ip"
+  />
+   
+    <EditText
+       android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/serverip"
+       android:singleLine="true"
+     
+       />
+    
+    
+    
+     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+          <Button
+              android:id="@+id/Connect1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/Connect" />
+
+          <Button
+              android:id="@+id/Reset"
+             
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/Reset" />
+          
+          <!-- 
+            <Button
+            
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="Help"
+              android:onClick="Help" />
+          
+           -->
+         
+         
+</LinearLayout>
+</LinearLayout>

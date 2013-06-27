@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/RemoteAakashClickerRepo/!svn/ver/76/RemoteAakashClicker/WebContent/jsp/includes
+END
+header.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/RemoteAakashClickerRepo/!svn/ver/2/RemoteAakashClicker/WebContent/jsp/includes/header.jsp
+END
+menuheaderForCoordinator.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/RemoteAakashClickerRepo/!svn/ver/51/RemoteAakashClicker/WebContent/jsp/includes/menuheaderForCoordinator.jsp
+END
+menuheaderForParticipantNoSSE.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/RemoteAakashClickerRepo/!svn/ver/65/RemoteAakashClicker/WebContent/jsp/includes/menuheaderForParticipantNoSSE.jsp
+END
+footer.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/RemoteAakashClickerRepo/!svn/ver/76/RemoteAakashClicker/WebContent/jsp/includes/footer.jsp
+END
+menuheaderForParticipant.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/RemoteAakashClickerRepo/!svn/ver/51/RemoteAakashClicker/WebContent/jsp/includes/menuheaderForParticipant.jsp
+END

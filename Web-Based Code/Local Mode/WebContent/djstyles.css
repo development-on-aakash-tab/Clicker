@@ -1,0 +1,43 @@
+@CHARSET "UTF-8";
+
+#content_in {margin:0 auto;width:750px;text-align:left;background-repeat:repeat-y; font-size: medium;font-weight: bold; min-height: 550px;}
+
+.pageheader {margin: 0px 0px; text-align: center;}
+p {margin: 5px 0px;}
+p.options {font-family: serif;}
+textarea {padding: 3px; width: 750px; height:100px; font-size: medium; font-family: sans-serif; background-color: #e5e5e5;}
+.inputtext {background-color: #e5e5e5; margin-left: 5px; width: 350px; height: 25px; font-size: 16px; }
+.inputtext:FOCUS {background-color:white; }
+textarea:FOCUS {background-color:white; }
+.remove {margin-left: 5px; height: 25px;}
+#add {margin-left: 50px; height: 25px; }
+#submitB {height:30px; font-weight:bolder; font-size: large; margin: 15px 0px;}
+
+
+/* questionbank.jsp formatting */
+.buttons {height: 25px; margin: 5px 15px; width: 100px; font-size: medium;}
+
+#options {float:left; margin: 10px 0px 10px 40px; width: 300px; font-size: 14px; overflow: auto; height: 160px; padding:5px; outline-style:ridge;	outline-color:gray;}
+
+#rpt_left_content{width: 80px; float: left;}
+
+.rpt_menu{width:80px; height: 50px; margin-top: 40px; font-size: medium; color: blue; cursor: pointer;text-shadow:3px 3px 3px #88FFFF;}
+
+#rpt_header{width: 520px; height: 60px; float: right; margin-top: 40px; text-align:center;}
+
+#rpt_right_content{width: 500px; float: right; margin-top:30px; margin-left: 20px;text-align:left;}
+.rpt_content{display: none;}
+
+/* CQstyles */
+#select1{ width:300px;}
+#select2{ width:300px;}
+#optionsDiv{ padding:5px; outline-style:ridge;	outline-color:gray;	height: 160px;	width:292px; float:left; overflow: auto; }
+/*
+.options{ width:200px; }
+*/
+#nameDuration{ float: left; min-height: 160px; width:400px; margin-left: 40px;}
+#create{ margin-top: 180px; margin-left:350px; margin-bottom: 20px}
+
+#uploadForm{height: 90%;width: 100%;}
+#frame{height: 100%;width: 100%;}
+#dialog{visibility: hidden;}

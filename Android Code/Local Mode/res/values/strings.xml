@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="app_name">CR-CLICKER</string>
+    <string name="Server_IP">Server IP</string>
+   
+    <string name="enter_server_ip">Enter Server IP Address</string>
+   
+    <string name="enter_enrollment_id">Enter Enrollment ID</string>
+    
+     <string name="Connect">CONNECT</string>
+      <string name="Reset">RESET</string>
+      
+</resources>

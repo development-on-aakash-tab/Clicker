@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/RemoteAakashClickerRepo/!svn/ver/75/RemoteAakashClicker/src/com/clicker/databaseconn
+END
+DatabaseQueries.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/RemoteAakashClickerRepo/!svn/ver/64/RemoteAakashClicker/src/com/clicker/databaseconn/DatabaseQueries.java
+END
+DatabaseConnection.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/RemoteAakashClickerRepo/!svn/ver/41/RemoteAakashClicker/src/com/clicker/databaseconn/DatabaseConnection.java
+END
+DBHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/RemoteAakashClickerRepo/!svn/ver/58/RemoteAakashClicker/src/com/clicker/databaseconn/DBHelper.java
+END
+QuizRecordQueries.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/RemoteAakashClickerRepo/!svn/ver/64/RemoteAakashClicker/src/com/clicker/databaseconn/QuizRecordQueries.java
+END
+StudentResponses.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/RemoteAakashClickerRepo/!svn/ver/64/RemoteAakashClicker/src/com/clicker/databaseconn/StudentResponses.java
+END
+Insert_Attendance.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/RemoteAakashClickerRepo/!svn/ver/58/RemoteAakashClicker/src/com/clicker/databaseconn/Insert_Attendance.java
+END
+DatabaseResultSetQueries.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/RemoteAakashClickerRepo/!svn/ver/61/RemoteAakashClicker/src/com/clicker/databaseconn/DatabaseResultSetQueries.java
+END
+QuizSaveDatabaseRecords.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/RemoteAakashClickerRepo/!svn/ver/75/RemoteAakashClicker/src/com/clicker/databaseconn/QuizSaveDatabaseRecords.java
+END

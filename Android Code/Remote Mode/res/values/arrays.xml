@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="centre">
+    <item>Local</item>
+    <item>Remote</item>
+   
+  </string-array>
+  <string-array name="centre_name">
+    <item>Local</item>
+    <item>Remote</item>
+    
+  </string-array>
+</resources>

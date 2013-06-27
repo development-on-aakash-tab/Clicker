@@ -1,0 +1,34 @@
+@CHARSET "UTF-8";
+* {
+margin: 0;
+padding: 0
+}
+a {
+color: #EC5D3B
+}
+a:hover {
+text-decoration: none;
+color: #f00
+}
+body {
+background-color: #E3CF9D;
+font: 12px Arial, Helvetica, sans-serif;
+color: #383838;
+adding-top: 17px
+}
+#content {
+margin: 0 auto;
+width: 800px;
+ext-align: left;
+background: #E3CF9D;
+}
+#content_in {
+margin: 0 auto;
+width: 800px;
+eight:700px;
+text-align: left;
+background: #E3CF9D;
+font-size: medium;
+font-weight: bold;
+text-align: center;
+}

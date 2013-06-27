@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/RemoteAakashClickerRepo/!svn/ver/76/RemoteAakashClicker/WebContent/jsp/instructorJspPages
+END
+ListQuiz.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/RemoteAakashClickerRepo/!svn/ver/64/RemoteAakashClicker/WebContent/jsp/instructorJspPages/ListQuiz.jsp
+END
+InstantQuizCheckIdle.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/RemoteAakashClickerRepo/!svn/ver/72/RemoteAakashClicker/WebContent/jsp/instructorJspPages/InstantQuizCheckIdle.jsp
+END
+InstructorError.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/RemoteAakashClickerRepo/!svn/ver/64/RemoteAakashClicker/WebContent/jsp/instructorJspPages/InstructorError.jsp
+END
+InstantQuiz.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/RemoteAakashClickerRepo/!svn/ver/75/RemoteAakashClicker/WebContent/jsp/instructorJspPages/InstantQuiz.jsp
+END
+InstantSSE.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/RemoteAakashClickerRepo/!svn/ver/76/RemoteAakashClicker/WebContent/jsp/instructorJspPages/InstantSSE.jsp
+END
+responsehelper.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/RemoteAakashClickerRepo/!svn/ver/72/RemoteAakashClicker/WebContent/jsp/instructorJspPages/responsehelper.jsp
+END
+InstructorQuizSSE.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/RemoteAakashClickerRepo/!svn/ver/76/RemoteAakashClicker/WebContent/jsp/instructorJspPages/InstructorQuizSSE.jsp
+END
+responseschart.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/RemoteAakashClickerRepo/!svn/ver/64/RemoteAakashClicker/WebContent/jsp/instructorJspPages/responseschart.jsp
+END
+instantresponseschart.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/RemoteAakashClickerRepo/!svn/ver/75/RemoteAakashClicker/WebContent/jsp/instructorJspPages/instantresponseschart.jsp
+END
+ResponseTable.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/RemoteAakashClickerRepo/!svn/ver/64/RemoteAakashClicker/WebContent/jsp/instructorJspPages/ResponseTable.jsp
+END
+InstructorQuizMenu.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/RemoteAakashClickerRepo/!svn/ver/64/RemoteAakashClicker/WebContent/jsp/instructorJspPages/InstructorQuizMenu.jsp
+END
+checkidle.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/RemoteAakashClickerRepo/!svn/ver/64/RemoteAakashClicker/WebContent/jsp/instructorJspPages/checkidle.jsp
+END
+QuizURL.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/RemoteAakashClickerRepo/!svn/ver/64/RemoteAakashClicker/WebContent/jsp/instructorJspPages/QuizURL.jsp
+END
+Quizdlg.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/RemoteAakashClickerRepo/!svn/ver/64/RemoteAakashClicker/WebContent/jsp/instructorJspPages/Quizdlg.jsp
+END
+Responses.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/RemoteAakashClickerRepo/!svn/ver/64/RemoteAakashClicker/WebContent/jsp/instructorJspPages/Responses.jsp
+END

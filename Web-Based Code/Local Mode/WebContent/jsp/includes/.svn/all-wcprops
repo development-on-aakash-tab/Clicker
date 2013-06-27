@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/AakashClickerRepo/!svn/ver/191/AakashClickerV3/WebContent/jsp/includes
+END
+header.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/AakashClickerRepo/!svn/ver/99/AakashClickerV3/WebContent/jsp/includes/header.jsp
+END
+menuheaderForStudent.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/AakashClickerRepo/!svn/ver/113/AakashClickerV3/WebContent/jsp/includes/menuheaderForStudent.jsp
+END
+menuheader.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/AakashClickerRepo/!svn/ver/99/AakashClickerV3/WebContent/jsp/includes/menuheader.jsp
+END
+menuheaderForInstructorRemote.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/AakashClickerRepo/!svn/ver/99/AakashClickerV3/WebContent/jsp/includes/menuheaderForInstructorRemote.jsp
+END
+footer.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/AakashClickerRepo/!svn/ver/191/AakashClickerV3/WebContent/jsp/includes/footer.jsp
+END
+menuheaderForInstructor.jsp
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/AakashClickerRepo/!svn/ver/111/AakashClickerV3/WebContent/jsp/includes/menuheaderForInstructor.jsp
+END

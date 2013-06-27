@@ -1,0 +1,5 @@
+Note : Please read the following instructions carefully.
+
+1) Enter Enrollment ID : Enter registered Enrollment ID.
+   
+2) Enter Server IP Address : Enter Server IP Address of local Clicker Server.

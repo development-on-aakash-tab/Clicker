@@ -1,0 +1,7 @@
+Note : Please read the following instructions carefully :
+
+1) To change the Server IP address click on menu and you get "Settings".
+
+2) Enter Server IP Address : Enter Server IP Address of local Clicker Server.
+
+

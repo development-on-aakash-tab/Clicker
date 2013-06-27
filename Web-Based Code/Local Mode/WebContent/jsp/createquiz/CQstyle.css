@@ -1,0 +1,32 @@
+@CHARSET "UTF-8";
+#select1{
+	width:350px;
+}
+#select2{
+	width:350px;
+}
+#tdsel1{
+	width:50px;
+}
+#tdsel2{
+	width:50px;
+}
+#optionsWrap{
+	padding-top:4px;
+	outline-style:ridge;
+	outline-color:gray;
+	min-height: 160px;
+	width:350px;
+	float:left;
+}
+#nameDuration{
+	padding-top:50px;
+	float: right;
+	min-height: 160px;
+	width:300px;
+}
+#create{
+	margin-top: 180px;
+	margin-left:350px;
+	margin-bottom: 20px
+}
